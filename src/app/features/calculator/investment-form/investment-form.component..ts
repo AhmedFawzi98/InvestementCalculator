@@ -9,10 +9,10 @@ import { InvestmentFormValue } from '../models/investment-form-value.model';
     styleUrl: './investment-form.component.css',
 })
 export class InvestmentFormComponent {
-    initialInvestment!: number;
-    annualInvestment!: number;
-    expectedReturn!: number;
-    duration!: number;
+    initialInvestment = 1000;
+    annualInvestment = 100;
+    expectedReturn = 4;
+    duration = 10;
 
     @Output() calculate = new EventEmitter<InvestmentFormValue>();
 

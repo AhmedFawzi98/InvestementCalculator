@@ -1,6 +1,6 @@
 <main>
     <section class="investment-form">
-        <app-investment-form />
+        <app-investment-form (calculate)="onCalculate($event)" />
     </section>
     <section class="investment-results">
         <!--to do-->
