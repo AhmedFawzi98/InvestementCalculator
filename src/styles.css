@@ -17,21 +17,20 @@ body {
     min-height: 100vh;
 }
 
-.center {
-    text-align: center;
-}
-
 :root {
     /*main background*/
     --color-bg-1: #0b1f1a;
     --color-bg-2: #020d0a;
 
+    /*secondary backgrounds*/
+    --color-bg-secondary: #ffffff08;
+
     /*UI colors*/
     --color-primary: #064e3b;
     --color-secondary-1: #10b981;
     --color-secondary-2: #059669;
-
-    --color-accent: #f59e0b;
+    --color-accent-1: #f59e0b;
+    --color-accent-2: #c5810c;
 
     /*text*/
     --color-text-light: #f9fafb;

@@ -1,11 +1,10 @@
 .form-container {
-    width: 90%;
-    margin: 2rem auto;
     padding: 1rem;
-    max-width: 30rem;
-    border-radius: 4px;
+    max-width: 45rem;
+    border-radius: 8px;
     background: linear-gradient(180deg, var(--color-primary), var(--color-secondary-1));
     box-shadow: var(--shadow-small);
+    margin-bottom: 1rem;
 }
 
 form {
@@ -33,7 +32,7 @@ input {
     width: 100%;
     padding: 0.5rem;
     border: var(--border-small);
-    border-radius: 0.25rem;
+    border-radius: 0.4rem;
     background-color: transparent;
     color: #c2e9e0;
     font-size: 1rem;
@@ -62,8 +61,8 @@ button {
     width: 100%;
     padding: 0.5rem;
     border: var(--border-small);
-    border-radius: 0.25rem;
-    background-color: var(--color-accent);
+    border-radius: 0.4rem;
+    background-color: var(--color-accent-1);
     color: var(--color-text-dark);
     font-size: 0.9rem;
     font-weight: bold;
@@ -71,7 +70,7 @@ button {
 }
 
 button:hover {
-    background-color: var(--color-secondary-2);
+    background-color: var(--color-accent-2);
 }
 
 @media (max-width: 640px) {
