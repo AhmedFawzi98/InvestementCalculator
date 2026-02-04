@@ -2,7 +2,10 @@
     <section class="investment-form">
         <app-investment-form (calculate)="onCalculate($event)" />
     </section>
-    <section class="investment-results">
-        <!--to do-->
-    </section>
+
+    @if (investmentResults) {
+        <section class="investment-results">
+            <app-investment-result [investmentResults]="investmentResults" />
+        </section>
+    }
 </main>
