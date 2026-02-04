@@ -12,7 +12,7 @@ body {
     font-family: 'Quicksand', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: radial-gradient(circle at top, var(--color-primary), var(--color-secondary));
+    background: radial-gradient(circle at top, var(--color-bg-1), var(--color-bg-2));
     color: var(--color-bg);
     min-height: 100vh;
 }
@@ -22,6 +22,9 @@ body {
 }
 
 :root {
+    --color-bg-1: #0b1f1a;
+    --color-bg-2: #020d0a;
+
     --color-primary: #064e3b;
     --color-secondary: #10b981;
     --color-accent: #f59e0b;
@@ -31,16 +34,5 @@ body {
     --color-surface: #ffffff;
     --color-border: #e5e7eb;
 
-    --shadow-card: 0 12px 30px rgba(0, 0, 0, 0.06);
     --border-small: 1px solid var(--color-border);
 }
-
-.card {
-    width: 420px;
-    padding: 1.5rem;
-    background: var(--color-surface);
-    border: var(--border-small);
-    border-radius: 14px;
-    box-shadow: var(--shadow-card);
-}
-
