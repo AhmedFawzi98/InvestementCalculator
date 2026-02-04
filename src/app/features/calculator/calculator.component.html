@@ -1,0 +1,11 @@
+<main>
+    <section class="investment-form">
+        <app-investment-form (calculate)="onCalculate($event)" />
+    </section>
+
+    @if (investmentResults) {
+        <section class="investment-results">
+            <app-investment-result [investmentResults]="investmentResults" />
+        </section>
+    }
+</main>

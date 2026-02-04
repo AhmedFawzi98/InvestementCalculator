@@ -13,26 +13,35 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background: radial-gradient(circle at top, var(--color-bg-1), var(--color-bg-2));
-    color: var(--color-bg);
+    color: var(--color-text-light);
     min-height: 100vh;
 }
 
-.center {
-    text-align: center;
-}
-
 :root {
+    /*main background*/
     --color-bg-1: #0b1f1a;
     --color-bg-2: #020d0a;
 
+    /*secondary backgrounds*/
+    --color-bg-secondary: #ffffff08;
+
+    /*UI colors*/
     --color-primary: #064e3b;
-    --color-secondary: #10b981;
-    --color-accent: #f59e0b;
+    --color-secondary-1: #10b981;
+    --color-secondary-2: #059669;
+    --color-accent-1: #f59e0b;
+    --color-accent-2: #c5810c;
 
-    --color-bg: #f9fafb;
-    --color-text: #111827;
-    --color-surface: #ffffff;
-    --color-border: #e5e7eb;
+    /*text*/
+    --color-text-light: #f9fafb;
+    --color-text-dark: #111827;
 
+    /*borders*/
+    --color-border: #76c0ae;
     --border-small: 1px solid var(--color-border);
+    --border-medium: 1.5px solid var(--color-border);
+
+    /*shadows*/
+    --color-shadow: #9ca3af33; /* gray-400, lighter alpha */
+    --shadow-small: 0 0 8px 1px var(--color-shadow);
 }
