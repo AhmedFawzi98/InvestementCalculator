@@ -1,27 +1,39 @@
-# EssentialsPractice
+# Investment Calculator (Angular)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0-next.2.
+A simple investment calculator built with **Angular 21** to practice core Angular fundamentals and clean component structure.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Preview
 
-## Code scaffolding
+![Investment Calculator preview 1]() 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## What this project covers
+- Standalone components
+- Feature-based folder organization
+- Template-driven forms (`ngModel`, `ngSubmit`)
+- Parent–child communication using `@Input` and `@Output`
+- Business logic encapsulated in services with dependency injection
+- Presentation formatting using built-in pipes (e.g. `currency`)
+- **HTML fundamentals**: semantic markup, forms, tables, accessibility-aware structure
+- **CSS fundamentals**: CSS Grid and Flexbox for layout, responsive design, custom theming using CSS variables, focus states, and minimal component styling
 
-## Build
+## Notes
+- The focus is on correct Angular patterns, not feature completeness
+- Styling is intentionally minimal and custom
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Getting Started
 
-## Running unit tests
+### Install dependencies
+```
+npm install
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Run the application
+``` 
+ng serve 
+```
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Navigate to: 
+```
+http://localhost:4200
+```
