@@ -5,7 +5,7 @@ A simple investment calculator built with **Angular 21** to practice core Angula
 
 ## Preview
 
-![Investment Calculator preview 1]() 
+![Investment Calculator preview](https://github.com/AhmedFawzi98/InvestementCalculator/blob/main/Preview/Investment-Calcuator-Preview.gif) 
 
 ## What this project covers
 - Standalone components
